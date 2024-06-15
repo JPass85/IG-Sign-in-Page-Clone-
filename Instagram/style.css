@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin-top: 220px;
+  overflow: hidden;
+  background: whitesmoke;
+}
+
+.container {
+  height: 690px;
+  width: 396px;
+  margin: 0 auto;
+  padding: 10px;
+  justify-content: center;
+  background: white;
+  border: 1px solid rgba(207, 207, 207, 0.815);
+  border-radius: 3px;
+}
+
+.logo,
+.cap,
+.log-btn,
+.line,
+.input-field,
+.terms,
+.sign-btn {
+  line-height: 10px;
+  margin: 0 auto;
+  padding: 9px 5px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.logo img {
+  margin-top: 20px;
+  height: 60px;
+}
+
+.cap {
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  line-height: 25px;
+  width: 350px;
+  color: #8e8e8e;
+}
+
+.fb-logo {
+  height: 20px;
+  margin-right: 5px;
+  background: white;
+  justify-content: center;
+}
+
+.log-btn button {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+button {
+  width: 270px;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  color: white;
+  background: #0095f6;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sign-btn button {
+  font-size: 16px;
+}
+
+span {
+  color: #aaaaaa;
+  font-size: 13px;
+  font-weight: 600;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+span .or {
+  padding: 5px;
+  justify-content: center;
+}
+
+section .terms {
+  text-align: center;
+  justify-content: space-evenly;
+  line-height: 20px;
+  width: 350px;
+  color: #8e8e8e;
+}
+.terms a,
+.terms_2 a {
+  margin: 0 auto;
+  padding: 10px;
+  color: #8e8e8e;
+}
+
+.terms p {
+  font-size: 14px;
+}
+
+.terms_2 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.sign-btn button {
+  opacity: 0.3;
+}
+
+.input-field input {
+  width: 300px;
+  height: 35px;
+  background: whitesmoke;
+  padding: 10px;
+  position: relative;
+  border: 1px solid rgba(207, 207, 207, 0.815);
+  border-radius: 3px;
+}
+
+.container_2 {
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  margin-top: 15px;
+  justify-content: space-evenly;
+  background: white;
+  border: 1px solid rgba(207, 207, 207, 0.815);
+  border-radius: 3px;
+}
+
+.container_2 .account-log {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.appstore {
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.appstore p {
+  font-size: 16px;
+}
+
+.google,
+.apl {
+  margin-top: 20px;
+  padding: 5px;
+  width: 160px;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 150px;
+  line-height: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.sub_footer li {
+  display: inline-block;
+}
+.sub_footer li a {
+  font-size: 13px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  color: #8e8e8e;
+}
+
+label .lang,
+.meta_tag {
+  display: inline-block;
+  color: #8e8e8e;
+}
+.meta_tag {
+  font-size: 13px;
+}
+
+.lang select {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  border: none;
+  color: #8e8e8e;
+  background: transparent;
+}
+
+/* Mobile device */
+
+@media screen and (max-width: 963px) {
+  footer {
+    margin-top: 100px;
+    margin-left: 40px;
+    padding-right: 40px;
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+  }
+
+  .sub_footer li {
+    display: inline-block;
+  }
+  .sub_footer li a {
+    font-size: 13px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    color: #8e8e8e;
+  }
+
+  label .lang,
+  .meta_tag {
+    display: inline-block;
+    color: #8e8e8e;
+  }
+  .meta_tag {
+    font-size: 13px;
+  }
+
+  .lang select {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border: none;
+    color: #8e8e8e;
+    background: transparent;
+  }
+}
